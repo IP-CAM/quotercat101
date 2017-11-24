@@ -315,7 +315,19 @@ class ControllerCommonColumnLeft extends Controller {
 			// Sales
 			$sale = array();
 			
-			if ($this->user->hasPermission('access', 'sale/order')) {
+			if ($this->user->hasPermission('access', 'extension/mkenqprolist') && $this->config->get((substr(VERSION,0,3)>='3.0' ? 'module_mkenqpro_status' : 'mkenqpro_status')) ) {
+			if(substr(VERSION,0,3)>='3.0') { 
+				$token_str = 'user_token=' . $this->session->data['user_token'];
+			} else {
+				$token_str = 'token=' . $this->session->data['token'];
+			}
+			$sale[] = array(
+				'name'	   => 'Enquiry Orders',
+				'href'     => $this->url->link('extension/mkenqprolist', $token_str, true),
+				'children' => array()		
+			);
+		}
+		if ($this->user->hasPermission('access', 'sale/order')) {
 				$sale[] = array(
 					'name'	   => $this->language->get('text_order'),
 					'href'     => $this->url->link('sale/order', 'token=' . $this->session->data['token'], true),

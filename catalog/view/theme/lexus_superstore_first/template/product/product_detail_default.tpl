@@ -216,10 +216,15 @@
                     <span class="add-down add-action fa fa-minus"></span>
                 </div>                                    
             </div>
-            <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />  
+            <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
+ 			<?php if(isset($mkenqpro_flag) && $mkenqpro_flag && $mkenqpro_btntype == 2) { ?> 
+				<br />
+				<button class="w3-btn w3-yellow w3-border" onclick="addtomkenqproprodpage()";><i class="fa fa-envelope"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $mkenqpro_btntext; ?></span></button> 
+				<br />
+			<?php } ?>  
             <div class="action pull-left">
                 <div class="cart">
-                    <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-shopping-cart"><?php echo $button_cart; ?></button>
+                    <button type="button" <?php if(isset($mkenqpro_flag) && $mkenqpro_flag && $mkenqpro_btntype == 1) { ?> onclick="addtomkenqproprodpage()"; <?php } else { ?> id="button-cart" <?php } ?> data-loading-text="<?php echo $text_loading; ?>" class="btn btn-shopping-cart"><?php if(isset($mkenqpro_flag) && $mkenqpro_flag && $mkenqpro_btntype == 1) { ?> <?php echo $mkenqpro_btntext; ?> <?php } else { ?> <?php echo $button_cart; ?> <?php } ?></button>
                 </div>
                 <div class="wishlist">  
                     <a class="btn btn-theme-default" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product_id; ?>');"><?php echo $button_wishlist; ?></a>

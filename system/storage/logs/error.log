@@ -50,3 +50,17 @@
 2017-11-16 20:50:06 - Export/Import: Missing customer_groups in worksheet 'Specials'!
 2017-11-16 20:50:06 - Export/Import: Missing customer_groups in worksheet 'Discounts'!
 2017-11-16 20:50:06 - Export/Import: Missing customer_groups in worksheet 'Rewards'!
+2017-11-21 12:39:29 - PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/storage/modification/catalog/controller/extension/module/mkenqprocart.php on line 602
+2017-11-21 20:22:04 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-21 20:22:18 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-21 20:22:27 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-21 20:23:48 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-22 3:42:25 - PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/storage/modification/catalog/controller/extension/module/mkenqprocart.php on line 602
+2017-11-22 3:42:30 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-22 3:43:07 - PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/storage/modification/catalog/controller/extension/module/mkenqprocart.php on line 602
+2017-11-22 3:43:12 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-22 3:48:15 - PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ilkerdemir/webapps/quotercat101/quotercat101/catalog/controller/extension/module/mkenqprocart.php on line 562
+2017-11-22 3:48:20 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-22 3:52:18 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-22 3:54:21 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167
+2017-11-22 7:53:59 - PHP Warning:  fsockopen(): unable to connect to smtp.yandex.com.tr:25 (Connection timed out) in /home/ilkerdemir/webapps/quotercat101/quotercat101/system/library/mail.php on line 167

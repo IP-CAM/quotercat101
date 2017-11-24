@@ -68,7 +68,7 @@
 
 		    <?php if( !isset($listingConfig['catalog_mode']) || !$listingConfig['catalog_mode'] ) { ?>
 				<div class="cart">
-					<button data-loading-text="Loading..." type="button" value="<?php echo $button_cart; ?>" onclick="cart.add('<?php echo $product['product_id']; ?>');" class="btn btn-shopping-cart"><?php echo $button_cart; ?></button>		
+					<button data-loading-text="Loading..." type="button" value="<?php echo $button_cart; ?>" onclick="<?php if(isset($product['mkenqpro_flag']) && $product['mkenqpro_flag'] && $product['mkenqpro_btntype'] == 1) { ?> addtomkenqpro <?php } else { ?> cart.add <?php } ?>('<?php echo $product['product_id']; ?>');" class="btn btn-shopping-cart"><?php if(isset($product['mkenqpro_flag']) && $product['mkenqpro_flag'] && $product['mkenqpro_btntype'] == 1) { ?> <?php echo $product['mkenqpro_btntext']; ?> <?php } else { ?> <?php echo $button_cart; ?> <?php } ?></button>		
 				</div>
 			<?php } ?>
 
