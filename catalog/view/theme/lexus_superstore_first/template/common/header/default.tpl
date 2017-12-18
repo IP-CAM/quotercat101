@@ -12,7 +12,7 @@
 	//$megamenu = $helper->renderModule('pavmegamenu');
 
 ?>
-
+<!--
 <nav id="topbar">
   <div class="container">
   	<div class="inner">
@@ -75,7 +75,7 @@
 	</div> 
   </div>
 </nav>
-
+-->
 
 <header id="header-main">
 	<div class="row">	
@@ -107,16 +107,16 @@
 					<?php echo $search; ?>		
 				<?php }  ?>				
 			</div>
-<!--			
+
 			<div class="media">
-                <div class="media-icon pull-left"><span class="fa fa-phone fa-3x"></span></div>
-                <div class="media-body"><h3>+90 212 444 4444 </h3><h3>+90 543 219 8765 - WHATSAPP</h3></div>
+                <div class="media-icon pull-left"><span class="fa fa-phone-square fa-3x"></span></div>
+                <div class="media-body"><h3>0 444 444 4444</h3></div>
 			</div>
--->
+<!--
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 shopping-cart inner ">
 				<?php echo $cart; ?>
 			</div>
-
+-->
 		</div>
 	</div>
 </header>

@@ -48,7 +48,7 @@
 				<meta content="<?php // echo $this->currency->getCode(); ?>" itemprop="priceCurrency">
 			</div>
 			<?php } ?>
-
+<!--
 			<?php if ( isset($product['rating']) ) { ?>
 	          <div class="rating">
 	            <?php for ($is = 1; $is <= 5; $is++) { ?>
@@ -61,7 +61,7 @@
 	            <?php } ?>
 	          </div>
 	         <?php } ?>
-
+-->
 		</div>
 
 		<div class="action"> 				     
@@ -71,7 +71,7 @@
 					<button data-loading-text="Loading..." type="button" value="<?php echo $button_cart; ?>" onclick="<?php if(isset($product['mkenqpro_flag']) && $product['mkenqpro_flag'] && $product['mkenqpro_btntype'] == 1) { ?> addtomkenqpro <?php } else { ?> cart.add <?php } ?>('<?php echo $product['product_id']; ?>');" class="btn btn-shopping-cart"><?php if(isset($product['mkenqpro_flag']) && $product['mkenqpro_flag'] && $product['mkenqpro_btntype'] == 1) { ?> <?php echo $product['mkenqpro_btntext']; ?> <?php } else { ?> <?php echo $button_cart; ?> <?php } ?></button>		
 				</div>
 			<?php } ?>
-
+<!--
 		    <div class="button-group">
 		    	<div class="wishlist">					
 					<a class="fa fa-heart product-icon" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><span><?php echo $button_wishlist; ?></span></a>	
@@ -80,7 +80,7 @@
 					<a class="fa fa-refresh product-icon" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><span><?php echo $button_compare; ?></span></a>	
 				</div>								
 			</div>
-
+-->
 		</div>
 	
 

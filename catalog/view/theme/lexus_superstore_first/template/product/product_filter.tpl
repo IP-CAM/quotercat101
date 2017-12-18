@@ -6,7 +6,9 @@
     </div>
   </div>    
   <div class="filter-right">
+  <!--
      <div class="product-compare pull-right"><a href="<?php echo $compare; ?>" class="btn btn-compare btn-theme-default" id="compare-total"><?php echo $text_compare; ?></a></div>
+  -->
       <div class="sort pull-right">
         <span  ><?php echo $text_sort; ?></span>
         <select id="input-sort" onchange="location = this.value;">

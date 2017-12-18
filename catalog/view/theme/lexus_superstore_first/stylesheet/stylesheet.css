@@ -1209,7 +1209,7 @@ body[class*="layout-boxed-"] .d-content:before {
 #header-main h4,
 #header-main h5,
 #header-main h6 {
-  font-size: 14px;
+  font-size: 30px;
   color: #2e3a47;
   margin: 0;
   line-height: normal;
